@@ -6,6 +6,8 @@
 
     import envelope from '$lib/assets/envelope.jpg';
 
+    export const prerender = true;
+
     const handleSubmit = () => {
         alert("Thank you for reaching out!");
     }

@@ -9,6 +9,7 @@
     import resortImage from '../lib/assets/resort-hero-image.jpg';
     import weddingImage from '../lib/assets/pexels-emma-bauso-1183828-2253870.jpg';
     import remoteWorkerImage from '../lib/assets/pexels-cottonbro-5054213.jpg';
+    export const prerender = true;
 </script>
 
 <style>

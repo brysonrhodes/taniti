@@ -16,7 +16,8 @@
     import shrimp from '$lib/assets/shrimp.jpg';
     import bbq from '$lib/assets/bbq.jpg';
 
-
+    export const prerender = true;
+    
     const handleClick = (str: string) => {
         alert("You are scheduling a " + str + " attraction");
     }

@@ -13,6 +13,8 @@
     import mountainHotel from '$lib/assets/mountain-hotel.jpg';
     import motel from '$lib/assets/motel.jpg';
     import beachHotel from '$lib/assets/beach-hotel.jpg';
+
+    export const prerender = true;
 </script>
 
 <style>

@@ -1,1 +1,4 @@
-<script>import "../app.css";</script><slot></slot>
+<script>
+import "../app.css";
+export const prerender = true;
+</script><slot></slot>

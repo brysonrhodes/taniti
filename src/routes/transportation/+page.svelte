@@ -19,6 +19,8 @@
     import getaround from '$lib/assets/getaround_-europe.png';
     import { get } from "svelte/store";
 
+    export const prerender = true;
+
     const handleClick = (url: string) => {
         window.open(url, "_blank")?.focus();
     }

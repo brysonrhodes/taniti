@@ -12,6 +12,8 @@
     import helicopter from '$lib/assets/helicopter.jpg';
     import pub from '$lib/assets/pub.jpg';
 
+    export const prerender = true;
+
     const handleClick = (str: string) => {
         alert("You are scheduling a " + str + " attraction");
     }
