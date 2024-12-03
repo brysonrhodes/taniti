@@ -26,6 +26,10 @@
         justify-content: space-around;
     }
 
+    .column {
+        max-width: 450px;
+    }
+
     h2 {
         margin-bottom: .5em;
     }
@@ -56,7 +60,7 @@
 <div class="wrapper">
     <div class="column">
         <h2 class="h2">Frequently Asked Questions:</h2>
-        <Accordion class="accordion">
+        <Accordion class="accordion" width="400">
             <AccordionItem open>
                 <svelte:fragment slot="summary"><b>What is the standard outlet on Taniti?</b></svelte:fragment>
                 <svelte:fragment slot="content">Power outlets are 120 volts (the same as in the United States).</svelte:fragment>

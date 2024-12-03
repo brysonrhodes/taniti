@@ -38,7 +38,7 @@
 <Hero imgSrc={banquet} heroText="Food heals the soul."/>
 <div class="wrapper">
     <div class="w-full text-token grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Burger Bay House")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Burger Bay House")}>
             <header>
                 <img src={burger} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -60,7 +60,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Red Fort")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Red Fort")}>
             <header>
                 <img src={ramen} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -82,7 +82,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("The Corner Shop")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("The Corner Shop")}>
             <header>
                 <img src={salmonToast} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -104,7 +104,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Tantiti's Secret Corner")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Tantiti's Secret Corner")}>
             <header>
                 <img src={comfort} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -126,7 +126,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Kentuky Dive Bar")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Kentuky Dive Bar")}>
             <header>
                 <img src={friedChicken} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -148,7 +148,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Panda Rising")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Panda Rising")}>
             <header>
                 <img src={springRolls} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -170,7 +170,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Taniti Dinner")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Taniti Dinner")}>
             <header>
                 <img src={fishTaco} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -192,7 +192,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Pedro's Pantry")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Pedro's Pantry")}>
             <header>
                 <img src={seafood} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -214,7 +214,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Mama Mary's Fish and Rice")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Mama Mary's Fish and Rice")}>
             <header>
                 <img src={shrimp} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -236,7 +236,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/dining" on:click={handleClick("Papa's BBQ")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/dining" on:click={handleClick("Papa's BBQ")}>
             <header>
                 <img src={bbq} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>

@@ -34,7 +34,7 @@
 <Hero imgSrc={crowd} heroText="Life happens outside of the hotel room."/>
 <div class="wrapper">
     <div class="w-full text-token grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/attractions" on:click={handleClick("rainforest tour")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/attractions" on:click={handleClick("rainforest tour")}>
             <header>
                 <img src={rainforest} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -58,7 +58,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/attractions" on:click={handleClick("beach day")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/attractions" on:click={handleClick("beach day")}>
             <header>
                 <img src={beach} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -80,7 +80,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/attractions" on:click={handleClick("volcano hike")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/attractions" on:click={handleClick("volcano hike")}>
             <header>
                 <img src={volcano} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -101,7 +101,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/attractions" on:click={handleClick("snorkeling")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/attractions" on:click={handleClick("snorkeling")}>
             <header>
                 <img src={snorkeling} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -124,7 +124,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/attractions" on:click={handleClick("helicopter tour")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/attractions" on:click={handleClick("helicopter tour")}>
             <header>
                 <img src={helicopter} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
@@ -148,7 +148,7 @@
             </footer>
         </a>
 
-        <a class="card bg-inital card-hover overflow-hidden" href="{base}/attractions" on:click={handleClick("pub night")}>
+        <a class="card bg-inital overflow-hidden" href="{base}/attractions" on:click={handleClick("pub night")}>
             <header>
                 <img src={pub} alt="" class="bg-black/50 w-full object-cover aspect-[21/9]" />
             </header>
