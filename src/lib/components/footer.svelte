@@ -2,6 +2,7 @@
     import youtube from "../assets/YouTube_full-color_icon_(2017).svg.png";
     import x from '../assets/x-icon.webp';
     import facebook from '../assets/facebook.png';
+    import { base } from "$app/paths";
 
     const handleClick = (str: string) => {
         window.open(str, '_blank')?.focus();
@@ -82,12 +83,12 @@
             <p class="oranienbaum">Quick Links</p>
             <hr>
             <ul>
-                <a href="/" class="anchor"><li>Home</li></a>
-                <a href="/transportation" class="anchor"><li>Transportation</li></a>
-                <a href="/lodging" class="anchor"><li>Lodging</li></a>
-                <a href="/attractions" class="anchor"><li>Attractions</li></a>
-                <a href="/dining" class="anchor"><li>Dining</li></a>
-                <a href="/contact-us" class="anchor"><li>Contact</li></a>
+                <a href="{base}/" class="anchor"><li>Home</li></a>
+                <a href="{base}/transportation" class="anchor"><li>Transportation</li></a>
+                <a href="{base}/lodging" class="anchor"><li>Lodging</li></a>
+                <a href="{base}/attractions" class="anchor"><li>Attractions</li></a>
+                <a href="{base}/dining" class="anchor"><li>Dining</li></a>
+                <a href="{base}/contact-us" class="anchor"><li>Contact</li></a>
             </ul>
         </div>
         <div class="column center">

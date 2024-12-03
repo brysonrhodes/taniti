@@ -1,6 +1,7 @@
 <script lang="ts">
     import { AppBar } from '@skeletonlabs/skeleton';
     import bars from '../assets/bars.svg';
+    import { base } from '$app/paths';
 
     let {active} = $props();
     let navigationDrawer = $state(false);
@@ -69,12 +70,12 @@
     <svelte:fragment slot="trail">
         <nav class="desktop">
             <ul>
-                <a href="/" class={isActive("Home")}><li>Home</li></a>
-                <a href="/transportation" class={isActive("Transportation")}><li>Transportation</li></a>
-                <a href="/lodging" class={isActive("Lodging")}><li>Lodging</li></a>
-                <a href="/attractions" class={isActive("Attractions")}><li>Attractions</li></a>
-                <a href="/dining" class={isActive("Dining")}><li>Dining</li></a>
-                <a href="/contact-us" class={isActive("Contact")}><li>Contact</li></a>
+                <a href="{base}/" class={isActive("Home")}><li>Home</li></a>
+                <a href="{base}/transportation" class={isActive("Transportation")}><li>Transportation</li></a>
+                <a href="{base}/lodging" class={isActive("Lodging")}><li>Lodging</li></a>
+                <a href="{base}/attractions" class={isActive("Attractions")}><li>Attractions</li></a>
+                <a href="{base}/dining" class={isActive("Dining")}><li>Dining</li></a>
+                <a href="{base}/contact-us" class={isActive("Contact")}><li>Contact</li></a>
             </ul>
         </nav>
         <button class="bars" onclick={handleMenuClick} aria-label="Navigation Toggle" aria-roledescription="Navigation Toggle"><img src={bars} alt=""/></button>
@@ -84,12 +85,12 @@
 <div class="dropdown-menu">
     <nav>
         <ul>
-            <a href="/about"><li>About</li></a>
-            <a href="/transportation"><li>Transportation</li></a>
-            <a href="/accomodations"><li>Accomodations</li></a>
-            <a href="/attractions"><li>Attractions</li></a>
-            <a href="/dining"><li>Dining</li></a>
-            <a href="/contact-us"><li>Contact Us</li></a>
+            <a href="{base}/about"><li>About</li></a>
+            <a href="{base}/transportation"><li>Transportation</li></a>
+            <a href="{base}/accomodations"><li>Accomodations</li></a>
+            <a href="{base}/attractions"><li>Attractions</li></a>
+            <a href="{base}/dining"><li>Dining</li></a>
+            <a href="{base}/contact-us"><li>Contact Us</li></a>
         </ul>
     </nav>
 </div>
